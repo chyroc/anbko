@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mattn/anko/ast"
-	"github.com/mattn/anko/env"
+	"github.com/chyroc/anbko/ast"
+	"github.com/chyroc/anbko/env"
 )
 
 func TestNumbers(t *testing.T) {

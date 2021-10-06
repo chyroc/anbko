@@ -9,7 +9,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/mattn/anko/ast"
+	"github.com/chyroc/anbko/ast"
 )
 
 const (

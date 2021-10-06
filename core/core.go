@@ -6,9 +6,9 @@ import (
 	"io/ioutil"
 	"reflect"
 
-	"github.com/mattn/anko/env"
-	"github.com/mattn/anko/parser"
-	"github.com/mattn/anko/vm"
+	"github.com/chyroc/anbko/env"
+	"github.com/chyroc/anbko/parser"
+	"github.com/chyroc/anbko/vm"
 )
 
 // Import defines core language builtins - keys, range, println,  etc.

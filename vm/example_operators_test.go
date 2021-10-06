@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/mattn/anko/env"
-	"github.com/mattn/anko/vm"
+	"github.com/chyroc/anbko/env"
+	"github.com/chyroc/anbko/vm"
 )
 
 func Example_vmBasicOperators() {

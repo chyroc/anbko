@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/mattn/anko/ast"
+	"github.com/chyroc/anbko/ast"
 )
 
 // WalkFunc is used in Walk to walk the AST

@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/mattn/anko/ast"
-	"github.com/mattn/anko/env"
+	"github.com/chyroc/anbko/ast"
+	"github.com/chyroc/anbko/env"
 )
 
 // Options provides options to run VM with

@@ -1,13 +1,13 @@
 # Anko
 
-[![GoDoc Reference](https://godoc.org/github.com/mattn/anko/vm?status.svg)](http://godoc.org/github.com/mattn/anko/vm)
-[![Build Status](https://travis-ci.org/mattn/anko.svg?branch=master)](https://travis-ci.org/mattn/anko)
-[![Financial Contributors on Open Collective](https://opencollective.com/mattn-anko/all/badge.svg?label=financial+contributors)](https://opencollective.com/mattn-anko) [![Coverage](https://codecov.io/gh/mattn/anko/branch/master/graph/badge.svg)](https://codecov.io/gh/mattn/anko)
-[![Go Report Card](https://goreportcard.com/badge/github.com/mattn/anko)](https://goreportcard.com/report/github.com/mattn/anko)
+[![GoDoc Reference](https://godoc.org/github.com/chyroc/anbko/vm?status.svg)](http://godoc.org/github.com/chyroc/anbko/vm)
+[![Build Status](https://travis-ci.org/chyroc/anbko.svg?branch=master)](https://travis-ci.org/chyroc/anbko)
+[![Financial Contributors on Open Collective](https://opencollective.com/mattn-anko/all/badge.svg?label=financial+contributors)](https://opencollective.com/mattn-anko) [![Coverage](https://codecov.io/gh/chyroc/anbko/branch/master/graph/badge.svg)](https://codecov.io/gh/chyroc/anbko)
+[![Go Report Card](https://goreportcard.com/badge/github.com/chyroc/anbko)](https://goreportcard.com/report/github.com/chyroc/anbko)
 
 Anko is a scriptable interpreter written in Go.
 
-![](https://raw.githubusercontent.com/mattn/anko/master/anko.png)
+![](https://raw.githubusercontent.com/chyroc/anbko/master/anko.png)
 
 (Picture licensed under CC BY-SA 3.0, photo by Ocdp)
 
@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/mattn/anko/env"
-	"github.com/mattn/anko/vm"
+	"github.com/chyroc/anbko/env"
+	"github.com/chyroc/anbko/vm"
 )
 
 func main() {
@@ -48,15 +48,15 @@ println("Hello World :)")
 
 More examples are located in the GoDoc:
 
-https://godoc.org/github.com/mattn/anko/vm
+https://godoc.org/github.com/chyroc/anbko/vm
 
 
 ## Usage Example - Command Line
 
 ### Building
 ```
-go get github.com/mattn/anko
-go install github.com/mattn/anko
+go get github.com/chyroc/anbko
+go install github.com/chyroc/anbko
 ```
 
 ### Running an Anko script file named script.ank
@@ -129,7 +129,7 @@ Yasuhiro Matsumoto (a.k.a mattn)
 ### Code Contributors
 
 This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
-<a href="https://github.com/mattn/anko/graphs/contributors"><img src="https://opencollective.com/mattn-anko/contributors.svg?width=890&button=false" /></a>
+<a href="https://github.com/chyroc/anbko/graphs/contributors"><img src="https://opencollective.com/mattn-anko/contributors.svg?width=890&button=false" /></a>
 
 ### Financial Contributors
 
