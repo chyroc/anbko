@@ -271,7 +271,7 @@ func (runInfo *runInfoStruct) invokeExpr() {
 		case reflect.Map:
 			runInfo.rv = getMapIndex(reflect.ValueOf(expr.Name), runInfo.rv)
 		default:
-			runInfo.err = newStringError(expr, "type "+runInfo.rv.Kind().String()+" does not support member operation")
+			// runInfo.err = newStringError(expr, "type "+runInfo.rv.Kind().String()+" does not support member operation")
 			runInfo.rv = nilValue
 		}
 

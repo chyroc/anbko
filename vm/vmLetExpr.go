@@ -96,7 +96,7 @@ func (runInfo *runInfoStruct) invokeLetExpr() {
 			runInfo.rv.SetMapIndex(reflect.ValueOf(expr.Name), value)
 
 		default:
-			runInfo.err = newStringError(expr, "type "+runInfo.rv.Kind().String()+" does not support member operation")
+			// runInfo.err = newStringError(expr, "type "+runInfo.rv.Kind().String()+" does not support member operation")
 			runInfo.rv = nilValue
 		}
 
